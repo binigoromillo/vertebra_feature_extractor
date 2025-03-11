@@ -1,0 +1,8 @@
+setup.py
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/PKG-INFO
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/SOURCES.txt
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/dependency_links.txt
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/entry_points.txt
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/not-zip-safe
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/requires.txt
+vertebra_feature_extractor/src/vertebra_feature_extractor.egg-info/top_level.txt

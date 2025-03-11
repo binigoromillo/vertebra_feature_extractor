@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: vertebra_feature_extractor
+Version: 0.1.0
+Summary: A feature extractor for vertebra segmentation analysis.
+Author: Blanca Inigo Romillo
+Author-email: binigo1@jh.edu
+Requires-Dist: omegaconf>=2.0.0
+Requires-Dist: rich>=10.0.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

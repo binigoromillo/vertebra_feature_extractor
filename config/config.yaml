@@ -1,0 +1,28 @@
+run : extract_features
+
+# extract features
+extract_features: {
+  parent_dir: /data2/blanca/COVID-19,
+  output_dir: /home/blanca/spine_project/extract_vert_feat/new_results,
+  input_csv: /home/blanca/spine_project/extract_vert_feat/new_results/all_feat_COVID-19.csv,
+  output_csv: /home/blanca/spine_project/extract_vert_feat/new_results/all_feat_COVID-19.csv,
+}
+
+# visualize
+visualize: {
+  vis_features:{
+    vis_data : /home/blanca/spine_project/extract_vert_feat/results/inference_data_predictions.csv,
+  },
+  vis_inspection:{
+    vis_ground_truth: True,
+    label: False,
+    vertebrae: ['L1', 'L2', 'L3', 'L4', 'L5'], # ['L1', 'L2', 'L3', 'L4', 'L5'], # ['T1', 'T2', 'T3', 'T4', T5', 'T6', 'T7', 'T8', 'T9', 'T10', 'T11', 'T12'], ["C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+    vis_data : /home/blanca/spine_project/extract_vert_feat/results/inference_data_predictions_NMDID.csv,
+  }
+}
+
+# predict
+predict: {
+  train_data: /home/blanca/spine_project/extract_vert_feat/results/labeled_data.csv,
+  inference_data: /home/blanca/spine_project/spine_gen/data_gen/all_feat_verse19.csv,
+}

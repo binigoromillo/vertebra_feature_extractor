@@ -1,0 +1,10 @@
+pyvista
+numpy
+scikit-learn
+scipy
+pandas
+tqdm
+opencv-python
+rich
+omegaconf
+matplotlib

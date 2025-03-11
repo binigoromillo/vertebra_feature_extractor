@@ -1,0 +1,2 @@
+omegaconf>=2.0.0
+rich>=10.0.0

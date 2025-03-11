@@ -1,0 +1,2 @@
+[console_scripts]
+vertebra-feature-extractor = main:main
